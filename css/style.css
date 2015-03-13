@@ -1,0 +1,80 @@
+#map{
+    
+    border: solid 1px red;
+    position: relative;
+}
+
+#tarmac, #bridge, #river, #admarc, #clinic, #football, #roads, #path, #stream, #trading, #health, #villages, #hole{
+    height: 10%;
+    width: 5%;
+    position: absolute;
+    background-color: blue;
+    display: block;
+    top: 25%;
+    right:87%;
+    cursor: pointer;
+}
+
+#bridge{
+    right: 78%
+}
+
+#river{
+    right: 68%;
+}
+
+#admarc{
+    right: 58%;
+}
+
+#clinic{
+    right: 48%;
+}
+
+#football{
+    right: 36%;
+}
+
+#roads{
+    top: 40%;
+}
+
+#path{
+    top: 40%;
+    right: 78%;
+}
+
+#stream{
+    top: 40%;
+    right: 68%;  
+}
+
+#trading{
+    top: 40%;
+    right: 58%;
+}
+
+#health{
+    top: 40%;
+    right: 48%;
+}
+
+#villages{
+    top: 40%;
+    right: 38%;
+}
+
+#hole{
+    top: 35%;
+    right: 27%;
+}
+
+#div1{
+    height: 10%;
+    width: 5%;
+    background-color: red;
+}
+
+#key {
+    border: 1px solid yellow;
+}
