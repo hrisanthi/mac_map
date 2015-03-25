@@ -1,80 +1,73 @@
-#map{
-    
-    border: solid 1px red;
+.holder{
+    height: 80%;
+    width: 80%;
     position: relative;
 }
 
-#tarmac, #bridge, #river, #admarc, #clinic, #football, #roads, #path, #stream, #trading, #health, #villages, #hole{
-    height: 10%;
-    width: 5%;
+
+.nisipi, .clinic, .crossroads, .dadandchild, .girl, .goats, .purplebucket, .road, .roadside, .soccer, .soccer2, .tree, .village, .womanwithbabe{
     position: absolute;
-    background-color: blue;
-    display: block;
-    top: 25%;
-    right:87%;
-    cursor: pointer;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: black;
 }
 
-#bridge{
-    right: 78%
+
+.nisipi{
+    top: 81%;
+    right: 60%;
 }
 
-#river{
-    right: 68%;
+.clinic{
+    top: 52%;
+    right: 62%;
 }
 
-#admarc{
-    right: 58%;
+.crossroads{
+    top:53%;
+    right: 70%;
 }
 
-#clinic{
-    right: 48%;
+.dadandchild{
+    top: 68%;
+    right: 72%;
 }
 
-#football{
-    right: 36%;
+.girl{
+    top: 58%;
+    right: 50%;
+    
 }
 
-#roads{
-    top: 40%;
+.goats{
+    top: 37%;
+    right: 75%;
 }
 
-#path{
-    top: 40%;
+.road{
+    top: 63%;
     right: 78%;
 }
 
-#stream{
+.soccer{
+    top: 57%;
+    right: 80%;
+}
+
+.tree{
+    top: 56%;
+    right: 40%;
+}
+
+.village{
+    top: 47%;
+    right: 35%;
+}
+
+.womanwithbabe{
     top: 40%;
-    right: 68%;  
+    right: 40   %;
 }
 
-#trading{
-    top: 40%;
-    right: 58%;
-}
 
-#health{
-    top: 40%;
-    right: 48%;
-}
-
-#villages{
-    top: 40%;
-    right: 38%;
-}
-
-#hole{
-    top: 35%;
-    right: 27%;
-}
-
-#div1{
-    height: 10%;
-    width: 5%;
-    background-color: red;
-}
-
-#key {
-    border: 1px solid yellow;
-}

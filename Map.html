@@ -7,58 +7,48 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.balloon.js"></script>
   
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     
-    <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/style.css">
         
         
 </head>
 
-<body>
-    
-    <div id="overall">
-      <img id="map" width="100%" src="images/macMapWeb.png">
-        <div id="key">
-        <div target="1" class="key" id="tarmac"></div>
-        <div target="2" class="key" id="bridge"></div>
-        <div target="3" class="key" id="river"></div>
-        <div target="4" class="key" id="admarc"></div>
-        <div target="5" class="key" id="clinic"></div>
-        <div target="6" class="key" id="football"></div>
-        <div target="7" class="key" id="roads"></div>
-        <div target="8" class="key" id="path"></div>
-        <div target="9" class="key" id="stream"></div>
-        <div target="10" class="key" id="trading"></div>
-        <div target="11" class="key" id="health"></div>
-        <div target="12" class="key" id="villages"></div>
-        <div target="13" class="key" id="hole"></div>
-        </div>
-        
-        <div id="image_map">
-        
-        <div id="div1" class="targetImg" onclick="imges/clinic.jpg"></div>
-        <div id="div2" class="targetImg"></div>
-        <div id="div3" class="targetImg"></div>
-        <div id="div4" class="targetImg"></div>
-        <div id="div5" class="targetImg"></div>
-        <div id="div6" class="targetImg"></div>
-        <div id="div7" class="targetImg"></div>
-        <div id="div8" class="targetImg"></div>
-        <div id="div9" class="targetImg"></div>
-        <div id="div10" class="targetImg"></div>
-        <div id="div11" class="targetImg"></div>
-        <div id="div12" class="targetImg"></div>
-        </div>
-        
 
-        
-        
-        
-        
-        
-        
-        
+<script>
+  $(document).ready(function(){
+    $(function(){
+       $('.balloon').balloon({
+        position: "null",
+        hideDuration: 0});
+    });
+  });
+</script>
+
+
+<body>
+  
+  
+  <h1>The Bike Riders Journey</h1>
+    <div class="holder">
+      <img class="macMapWeb" width="80%" height="80%" src="images/macMapWeb.png">
+        <i class="nisipi balloon" title="<img src='images/nisipi.jpg'>"></i>
+        <i class="clinic balloon" title="<img src='images/clinic.jpg'>"></i>
+        <i class="crossroads balloon" title="<img src='images/crossroads.jpg'>"></i>
+        <i class="dadandchild balloon" title="<img src='images/dadandchild.jpg'>"></i>
+        <i class="girl balloon" title="<img src='images/girl.jpg'>"></i>
+        <i class="goats balloon" title="<img src='images/goats.jpg'>"></i>
+        <i class="road balloon" title="<img src='images/road.jpg'>"></i>
+        <i class="soccer balloon" title="<img src='images/soccer.jpg'>"></i>
+        <i class="tree balloon" title="<img src='images/tree.jpg'>"></i>
+        <i class="village balloon" title="<img src='images/village.jpg'>"></i>
+        <i class="womanwithbabe balloon" title="<img src='images/womanandbabe.jpg'>"></i>
+
     </div>
+        
+    
 </body>
